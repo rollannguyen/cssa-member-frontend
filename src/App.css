@@ -1,0 +1,106 @@
+
+body {
+  font-family: Wavehaus, SemiBold;
+  background-color: #133b51;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  background: #133b51;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 200px;
+  background-color: #133b51;
+}
+.form-group a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.form-group a:hover {
+  text-decoration: underline;
+}
+.profile {
+  text-align: center;
+  margin-top: 50px;
+}
+.profile p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 15em;
+  padding: 0em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

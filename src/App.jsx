@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast'
 import { UserContextProvider } from '../context/userContext'
 import Dashboard from './pages/Dashboard'
 
-axios.defaults.baseURL = 'https://cssa-membership.onrender.com'
+axios.defaults.baseURL = 'https://cssa-member-frontend.onrender.com'
 axios.defaults.withCredentials = true
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/dashboard' element={<Dashboard />} />
     </Routes>
-      
+
     </UserContextProvider>
   )
 }

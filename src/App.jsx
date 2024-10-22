@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast'
 import { UserContextProvider } from '../context/userContext'
 import Dashboard from './pages/Dashboard'
 
-axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.baseURL = 'https://cssa-member-backend.vercel.app'
 axios.defaults.withCredentials = true
 
 function App() {

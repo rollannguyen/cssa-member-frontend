@@ -19,7 +19,7 @@ function App() {
     <div/>
     <Toaster position='top-center' toastOptions={{duration: 4000}} />
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/login' element={<Login />} />
       <Route path='/dashboard' element={<Dashboard />} />
